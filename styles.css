@@ -5,7 +5,7 @@
   background-color: #000c18;
 }
 .logo {
-  width: 70px;
+  width: 100px;
   background-color: #e6e7e9;
   border-radius: 5px;
   cursor: pointer;
@@ -28,11 +28,13 @@ li a {
   text-decoration: none;
   color: #e6e7e9;
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 li a:hover {
   color: rgb(9, 89, 238);
 }
 .btn {
+  font-size: 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #e6e7e9;
@@ -41,6 +43,8 @@ li a:hover {
   border: none;
   background-color: rgba(4, 59, 161, 1);
   transition: all 0.3s ease 0s;
+  outline: none;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: rgba(4, 59, 161, 0.8);
